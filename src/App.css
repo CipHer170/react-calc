@@ -16,6 +16,7 @@
   height: 60px;
   background-color: bisque;
   text-align: right;
+  font-size: 40px;
 }
 
 .buttons {
@@ -26,6 +27,7 @@
   /* grid: repeat(100px); */
   display: flex;
   position: relative;
+
 }
 
 .number-buttons {
@@ -37,9 +39,12 @@
   position: relative;
 }
 
+
 button {
   width: 102px;
   height: 90px;
+  font-size: 36px;
+
 }
 
 #clear {
@@ -92,9 +97,19 @@ button {
   top: -270px;
   right: 50px;
 
+
 }
 
-.numeric > button {
-  width: 105px;
-  height: 95px;
+.numeric>button {
+  width: 100.1px;
+  height: 94.5px;
+  color: aqua;
+
+}
+
+#sub-display {
+  background-color: aliceblue;
+  width: 100%;
+  height: 30px;
+  font-size: 25px;
 }
